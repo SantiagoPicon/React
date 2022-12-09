@@ -1,6 +1,27 @@
+import {Link} from 'react-router-dom';
 const navBar = () =>{
     return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div>
+        <ul>
+        <link to='catalogo'>
+            <li>
+                catalogo
+            </li>
+        </link>
+        <link to='detalle'>
+            <li>
+                catalogo
+            </li>
+        </link>
+        </ul>
+        
+
+        <cartWidget>
+                
+        </cartWidget>
+        </div>
+    )
+    /*<nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">PUNTO CLEAN</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,9 +36,13 @@ const navBar = () =>{
                 
             </div>
             </div>
+
+            <cartWidget>
+                
+            </cartWidget>
         </div>
-    </nav>
-        )
+    </nav>*/
+        
 
 }
 
